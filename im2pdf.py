@@ -18,6 +18,7 @@ import argparse
 
 verbose = False
 
+Image.MAX_IMAGE_PIXELS = None
 
 def convert(input_file, output_file):
     im = PIL.Image.open(input_file)
